@@ -1,7 +1,7 @@
 .header {
     background-color: aqua;
-    margin-top: px;
-    margin-left: 40px;
+    margin-top: 20px;
+    margin-left: 70px;
     padding: 45px;
     width: 20%;
     border: 1px black;
@@ -13,7 +13,11 @@ img {
     max-width: 70px;
 }
 
-h1 {
+.all {
+    max-width: 100%;
+}
+
+.header h1 {
     text-align: justify;
     font-size: 50px;
 }
@@ -24,7 +28,44 @@ h1 {
     transition-duration: 0.5s;
 }
 
+* {
+    margin: 10px;
+}
+
 h1:hover {
     color: white;
     animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+.full-width {
+    margin-top: 50px;
+    float: left;
+    width: 80%;
+    height: 500px;
+    background-size: cover;
+    margin-left: 150px;
+    margin-bottom: 200px;
+    transform: scale(1.07);
+    duration: 0.5s;
+    background-image: url('./Screenshot\ 2023-10-11\ 140154.png');
+}
+
+
+.fiv {
+    width: 100%;
+    margin: 20px 50px 0px;
+    float: left;
+}
+
+img {
+    float: right;
+    margin-right: 100px;
+    width: 600px;
+    height: 500px;
+}
+
+.five {
+    float: left;
+    width: 500px;
+    color: red;
 }
