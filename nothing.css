@@ -4,7 +4,7 @@
 }
 
 .header h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-family: cursive;
     color: aqua;
     font-weight: 800;
@@ -18,21 +18,22 @@
 .full-width,
 h1,
 p {
-    width: 500px;
+    width: 480px;
+    margin-top: 15px;
 }
 
-img {
+.imgsss {
     float: right;
     margin-right: 150px;
     width: 600px;
-    height: 450px;
+    height: 420px;
     border: 2px solid white;
     box-sizing: border-box;
     margin-top: 20px;
 
 }
 
-img:hover {
+.imgsss:hover {
     transform: scale(1.07);
     transition-duration: 0.5s;
     box-shadow: 10px 10px 15px;
@@ -73,4 +74,39 @@ p {
 #first:hover {
     color: black;
     background-color: aqua;
+}
+
+.item {
+    float: left;
+    display: inline-block;
+    padding: 20px;
+}
+
+.items {
+    width: 400px;
+    max-width: 400px;
+    height: 320px;
+    float: left;
+    margin: 50px 15px 50px;
+    background-color: aqua;
+    color: black;
+    padding-left: 40px;
+    padding-top: 40px;
+
+
+}
+
+.items img {
+    height: 80px;
+    width: 80px;
+}
+
+.items p {
+    width: 350px;
+}
+
+.items h3 {
+    font-size: 30px;
+    color: black;
+    font-family: cursive;
 }
